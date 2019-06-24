@@ -8,7 +8,7 @@
 	//  print_r($fruits);
 	
 	// print the element with loop 
-	for($i=0;$i<count($fruits);$i++){
+	for($i=0;$i<sizeof($fruits);$i++){
 		echo $fruits[$i] . "<br>";
 		
 	}
